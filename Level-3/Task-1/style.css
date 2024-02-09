@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-image: url("https://m.media-amazon.com/images/I/91zWOgKFy7L._AC_UF1000,1000_QL80_.jpg");
+  }
+  
+  #image-gallery {
+    width: 35rem;
+    margin: 4rem auto;
+  }
+  
+  #main-image {
+    width: 100%;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  }
+  
+  #thumbnail-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .thumbnail {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .thumbnail:hover {
+    opacity: 0.7;
+  }

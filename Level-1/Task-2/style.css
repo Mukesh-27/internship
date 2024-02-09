@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tr h1{
+    color: indianred;
+    background-color: black;
+
+}
+.ji{
+    margin-top: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 30%;
+    max-height: 50%;
+    background-color: yellow;
+    color: black;
+    display: block;
+    cursor: pointer;
+    border-radius: 20px;
+    
+   
+
+
+}
+
+.gr{
+    
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/664/710/original/vector-abstract-technology-background-hi-tech-communication-digital-background.jpg");
+}

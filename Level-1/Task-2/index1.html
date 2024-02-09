@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting Alert</title>
+    <link rel="stylesheet" href="ty.css">
+</head>
+<body  class="gt" style="background-color:powderblue;">
+    <h1>Greeting Message as Delivered!...</h1>
+
+<script>
+    var currentHour = new Date().getHours();
+    var greetingMessage;
+    if (currentHour >= 0 && currentHour < 12) {
+        greetingMessage = "Good morning!";
+    } else if (currentHour >= 12 && currentHour < 18) {
+        greetingMessage = "Good afternoon!";
+    } else {
+        greetingMessage = "Good evening!";
+    }
+    alert(greetingMessage);
+</script>
+
+</body>
+</html>

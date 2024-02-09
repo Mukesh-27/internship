@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Arial', sans-serif;
+}
+nav{
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+
+}
+nav .main{
+  display: flex;
+  list-style: none;
+}
+nav .main li a{
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.5rem;
+}
+nav .main li a:hover{
+   color: blue;
+}
+nav .up{
+  font-size: 2rem;
+  margin: 20px;
+  display: none;
+  cursor: pointer;
+}
+nav .main .cl,.icon i{
+ font-size: 2rem;
+ display: none;
+ cursor: pointer;
+}
+.fa-facebook:hover{
+  color: blue;
+}
+.fa-instagram:hover{
+  color: rgb(9, 9, 181);
+}
+.fa-twitter:hover{
+  color: rgb(8, 8, 235);
+}
+.fa-github:hover{
+  color: rgb(52, 52, 198);
+}
+nav .log{
+  margin: 6px;
+  font-size: 25px;
+  cursor: pointer;
+}
+@media (max-width:600px) {
+  nav .main{
+    height: 100vh;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 9;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    transition: top 1s ease;
+    display: none;
+  }
+  nav .main .cl{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  nav .up{
+    display: block;
+  }
+  nav .main li a:hover{
+    background: none;
+    color:blue;
+    font-size: 1.6 rem;
+  }
+  .icon i{
+    display: inline-block;
+    padding: 12px;
+  }
+
+  
+}
